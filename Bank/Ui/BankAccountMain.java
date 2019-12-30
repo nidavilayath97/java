@@ -9,8 +9,9 @@ public static void main(String[] args)
 	store[0]=new Bankaccount(1, "alekhya",1000);
 	store[0].addbalance(2000);
 	
-	store[1]=new Bankaccount(2,"Nandini",4000);
+	store[1]=new Bankaccount(2,"Nandini",5000);
 	store[1].transferamount(store[0],3000);
+	
 	
 	store[2]=new Bankaccount(3,"Ravi",2000);
 	store[2].addbalance(1000);
